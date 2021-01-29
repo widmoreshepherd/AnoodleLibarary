@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.widmoreshepherd '
+group='com.github.widmoreshepherd'
 
 android {
     compileSdkVersion COMPILE_SDK_VERSION.toInteger()
@@ -38,7 +38,7 @@ android {
 
 dependencies {
     implementation files('libs/DUI-lite-SDK-for-Android-2.9.3.jar')
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    api fileTree(include: ['*.jar'], dir: 'libs')
 
     testImplementation 'junit:junit:4.12'
     testImplementation('com.android.support.test.espresso:espresso-core:3.0.1', {
