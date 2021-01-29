@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cnbot.baiduvoice"
+   >
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 蓝牙录音使用，不需要可以去除 -->
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <application>
+
+        <!--<meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="23111022"/>
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="Lw9Fw8fKZ5hQjOIyjNDgaDHW"/>
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="EkA5ECeOCNofAu5tcLfnEjsYwVKGhN5F"/>-->
+
+        <!--<meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="10733190"/>
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="RRGE0rOZMgKb7zXNnsEpH7wG"/>
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="Qjfg9WVtuIFELvCDTtvKsBPUO7XjCGSp"/>-->
+
+        <meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="23561522"/>
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="Wzdg43hEdZMMwBW6bobagtxX"/>
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="vYHaoONaWHrpzwkTDwlW56D2ggeDXLPA"/>
+
+    </application>
+</manifest>
+
