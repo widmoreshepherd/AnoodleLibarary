@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 apply plugin: 'com.github.dcendents.android-maven'
-group='com.gitee.infinite_city'
+group='com.github.widmoreshepherd '
 
 android {
     compileSdkVersion COMPILE_SDK_VERSION.toInteger()
