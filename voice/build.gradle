@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
-//apply plugin: 'com.github.dcendents.android-maven'
-//group='com.github.widmoreshepherd'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.widmoreshepherd'
 
 android {
     compileSdkVersion COMPILE_SDK_VERSION.toInteger()
@@ -24,7 +24,7 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 
-    task makeJar(type:Copy) {
+    /*task makeJar(type:Copy) {
         delete 'build/libs/voice.jar'
         from('build/intermediates/packaged-classes/release')//jar文件来源
         into('build/libs/')   //生成路径
@@ -32,7 +32,7 @@ android {
         rename('classes.jar','voice.jar')  //命名为test.jar
     }
 
-    makeJar.dependsOn(build)
+    makeJar.dependsOn(build)*/
 
 }
 

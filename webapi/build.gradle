@@ -25,7 +25,7 @@ android {
         }
     }
 
-    task makeJar(type:Copy) {
+    /*task makeJar(type:Copy) {
         delete 'build/libs/common.jar'
         from('build/intermediates/packaged-classes/release')//jar文件来源
         into('build/libs/')   //生成路径
@@ -33,7 +33,7 @@ android {
         rename('classes.jar','common.jar')  //命名为test.jar
     }
 
-    makeJar.dependsOn(build)
+    makeJar.dependsOn(build)*/
 
 }
 
